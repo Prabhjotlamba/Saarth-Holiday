@@ -1,0 +1,218 @@
+body {
+    margin: 0;
+  }
+  
+  .top__header {
+    background-color: skyblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    padding: 0% 2%;
+  }
+  
+  .top__header h2 {
+    color: rgb(35, 4, 59);
+    font-weight: 900;
+    font-family: cursive;
+    font-size: 35px;
+  
+  }
+  
+  .right__top__header .button {
+    border: none;
+    /* color: white; */
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button4 {
+    /* background-color: white;
+      color: rgb(7, 7, 7);
+      border: 2px solid #e7e7e7; */
+    text-decoration: none;
+    padding: 3px 8px;
+    background-color: #2494f0;
+    color: white;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    margin-bottom: 65px;
+  }
+  
+  .button4:hover {
+    /* background-color: #e7e7e7; */
+    border: 1px solid rgb(11, 151, 194);
+    border-radius: 10px;
+    background-color: #1b8bcc;
+    color: rgb(31, 41, 228);
+  }
+  .navbar-right {
+    background-color: rgb(25, 5, 83);
+    list-style: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0px;
+    height: 100%;
+    color: #e7e7e7;
+    transition: all 0.3s ease 0s;
+    padding: 10px;
+  }
+  
+  .page-scroll {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    padding: 10px 30px;
+    max-width: 1200px;
+    color: bisque;
+  }
+  .page-scroll:hover {
+    border: 1px solid rgb(11, 151, 194);
+    border-radius: 5px;
+    background-color: #4bb1ec;
+    color: rgb(255, 255, 255);
+  }  
+  .navbar-brand{
+    text-align: center;
+    margin: 0px;
+  
+  }
+  .logopic{
+    margin-top: 1px;
+    border-radius: 100px;
+    height: 70px;
+    width: 70x;
+  }
+  .backgroundvideo{
+    
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+}
+.sideimage {
+    display: table;
+  }
+  
+  .sideimage span  img {
+    vertical-align: middle;
+    display: table-cell;
+    height: 500px;
+    width: 700px; 
+  }
+  .sideimage  span {
+    vertical-align: middle;
+    display: table-cell;
+    color: black;
+    padding-left: 32px;
+  }
+  .blog{
+    margin: 0% 5% ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly ;
+}
+.card-img-top{
+  margin: 5%;
+  width: 80%;
+}
+.row {
+   
+    display: flex;
+    -ms-flex-wrap: wrap;
+    padding: 4px;
+   margin: 35px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  .paraghraph{
+      text-align: center;
+      color: black;
+      padding-left: 10rem;
+      padding-right: 10rem;
+  }
+  .box{
+      border: black;
+  }
+  .sliderimage{
+      width: 50%;
+      height: 30%;
+      padding-left: 2rem;
+      margin: 0px;
+  }
+/* .slidertext{
+    font-style: italic;
+    display: flex;
+    justify-content:right ;
+    
+
+} */
+.bottomslider{
+  
+  background-color: rgb(25, 5, 83);
+    list-style: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0px;
+    height: 100%;
+    color: #e7e7e7;
+    transition: all 0.3s ease 0s;
+    padding: 10px;
+ 
+}
+.slidercon{
+
+    text-decoration: none;
+    font-style: italic;
+    padding: 10px 30px;
+    max-width: 1200px;
+    color: white;
+  }
+
+  .sliderconh{
+
+    text-decoration: none;
+    font-style: italic;
+    padding: 10px 30px;
+    max-width: 1200px;
+    color: white;
+    font-size: 50px;
+}
